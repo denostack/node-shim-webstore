@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "strict": true,
+    "target": "ES2019",
+    "lib": ["ES2019"],
+    "declaration": true,
+    "outDir": "dist",
+    "stripInternal": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

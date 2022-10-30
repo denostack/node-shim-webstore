@@ -1,0 +1,30 @@
+{
+  "name": "@denostack/shim-webstore",
+  "version": "0.1.0",
+  "description": "Node shim for the Web Store API.",
+  "keywords": [
+    "webstore",
+    "localstorage",
+    "shim"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denostack/node-shim-webstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denostack/node-shim-webstore/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.7.2"
+  }
+}
