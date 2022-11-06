@@ -2,7 +2,6 @@
 
 Web Store API(localStorage, sessionStorage) shim for Node.js
 
-
 localStorage data is stored in the `~/.denostack` directory, so the data persists across program restarts.
 
 ## Installation
@@ -11,7 +10,7 @@ localStorage data is stored in the `~/.denostack` directory, so the data persist
 npm install @denostack/shim-webstore
 ```
 
-```
+```javascript
 import { localStorage, sessionStorage } from '@denostack/shim-webstore'
 
 // :-)
