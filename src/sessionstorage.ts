@@ -33,4 +33,11 @@ export const sessionStorage: Storage = new Proxy(new SessionStorage(), {
     if (prop in target) return (target as any)[prop]
     return target.getItem(prop as string)
   },
+  set(target, prop, value) {
+    if (prop in target) {
+      return false
+    }
+    target.setItem(prop as string, value as string)
+    return true
+  },
 })
